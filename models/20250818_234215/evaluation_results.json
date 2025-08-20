@@ -1,0 +1,7 @@
+{
+  "test_accuracy": 0.9739130139350891,
+  "test_top_k_accuracy": 0.9971014261245728,
+  "test_loss": 0.16810858249664307,
+  "classification_report": "               precision    recall  f1-score   support\n\n    come_here       1.00      0.96      0.98        23\n        fight       1.00      1.00      1.00        26\n   go_forward       1.00      1.00      1.00        27\n         grab       1.00      1.00      1.00        28\nmiddle_finger       1.00      0.93      0.96        28\n  number_four       0.89      1.00      0.94        16\n   number_one       0.95      1.00      0.97        18\n number_three       1.00      1.00      1.00        21\n   number_two       0.92      0.96      0.94        23\n      ok_sign       0.87      1.00      0.93        20\n        point       1.00      1.00      1.00        24\n         stop       0.94      0.76      0.84        21\n  thumbs_down       1.00      1.00      1.00        22\n    thumbs_up       1.00      1.00      1.00        23\n         wave       1.00      1.00      1.00        25\n\n     accuracy                           0.97       345\n    macro avg       0.97      0.97      0.97       345\n weighted avg       0.98      0.97      0.97       345\n",
+  "model_parameters": 857487
+}

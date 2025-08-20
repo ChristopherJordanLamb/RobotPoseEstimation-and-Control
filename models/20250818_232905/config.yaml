@@ -1,0 +1,17 @@
+batch_size: 8
+cv_folds: 5
+data_dir: gesture_training_data
+epochs: 100
+feature_dim: 98
+label_encoder_save_path: gesture_label_encoder.pkl
+learning_rate: 0.01
+max_sequence_length: 150
+min_samples_per_class: 3
+model_save_path: gesture_model.h5
+noise_factor: 0.02
+patience: 40
+scaler_save_path: gesture_scaler.pkl
+test_size: 0.2
+time_stretch_factor: 0.1
+use_cross_validation: false
+validation_size: 0.2
